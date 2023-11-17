@@ -18,8 +18,10 @@
                     </div>
 
                     <div class="discount">
-                      <span class="discount-red"></span>
-                      <span class=" discount-green">Sostenibilità</span>
+
+                        @foreach ($product['badges'] as $badge )
+                           <span class="{{$badge['type'] == 'tag' ? 'discount-green' : 'discount-red'}}">{{$badge['value']}}</span>
+                        @endforeach
                     </div>
 
                     <div class="heart">
