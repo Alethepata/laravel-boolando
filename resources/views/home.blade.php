@@ -25,18 +25,18 @@
                     </div>
 
                     <div class="heart">
-                      <span>&hearts;</span>
+                      <span class="{{ $product['isInFavorites'] ? 'text-danger' : ''}}">&hearts;</span>
                     </div>
 
                 </div>
                 <div class="text">
                     <span>{{ $product['brand']}}</span>
-                    <span>{{ $product['name']}}</span>
+                    <h6 class="fw-bolder text-uppercase">{{ $product['name']}}</h6>
                 </div>
 
                 <div class="prezzo">
 
-
+                    <span>€ {{ $product['price'] }}</span>
 
                 </div>
 
