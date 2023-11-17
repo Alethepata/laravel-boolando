@@ -51,6 +51,7 @@ body{
 .card{
     padding: 40px 15px 0 0;
     cursor: pointer;
+    border: none;
 
     .contenuto-card{
     position: relative;
@@ -102,12 +103,8 @@ body{
   }
   .text{
      span{
-      &:first-child{
         font-size: 12px;
-      }
-      &:last-child{
-        font-weight: 600;
-      }
+
   }
   }
 
@@ -115,13 +112,6 @@ body{
   .prezzo{
      span{
       margin-right: 10px;
-    &:first-child{
-      color: $red;
-    }
-    &:first-child{
-    font-weight: 600;
-
-  }
   }
   }
 
