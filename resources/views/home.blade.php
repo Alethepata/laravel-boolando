@@ -1,5 +1,7 @@
 @extends('layout.main')
 
 @section('content')
-    <h1>Prova</h1>
+    <div class="container">
+        <h1>prova</h1>
+    </div>
 @endsection
