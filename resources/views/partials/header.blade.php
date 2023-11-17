@@ -1,5 +1,5 @@
 @php
-    $menu= config('menu');
+    $menu= config('menues.menu_header');
 @endphp
 
 <header>
